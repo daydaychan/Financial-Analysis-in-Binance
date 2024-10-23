@@ -1,5 +1,6 @@
-**Long/Short Funding Rate Strategy
-**
+**Long/Short Funding Rate Strategy**
+
+
 **Introduction**
 This strategy uses the funding rate as an indicator to adopt a market-neutral approach. 
 
@@ -19,9 +20,9 @@ Normalize funding rates based on their percentile value.
 Rate of Change (ROC):
 Measure the relative change over time, to identify tokens with significant recent shifts.
 
-Universal Value Selection: Based on Quarterly Market Cap
+**Universal Value Selection:** Based on Quarterly Market Cap
 
-Date Fetched: 
+**Date Fetched: **
 2020/4, 2020/8, 2020/12, 2021/4, 2021/8, 2021/12, 2022/4, 2022/8, 2022/12, 2023/4, 2023/8, 2023/12, 2024/4
 
 **Data Source:**
