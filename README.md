@@ -1,9 +1,9 @@
-Long/Short Funding Rate Strategy
-
-Introduction
+**Long/Short Funding Rate Strategy
+**
+**Introduction**
 This strategy uses the funding rate as an indicator to adopt a market-neutral approach. 
 
-Models for Strategy
+**Models for Strategy**
 Simple Ranking based on funding rates
 Rank their funding rates, short the high ranks, and long the low ranks.
 Z-Score model:
@@ -24,10 +24,10 @@ Universal Value Selection: Based on Quarterly Market Cap
 Date Fetched: 
 2020/4, 2020/8, 2020/12, 2021/4, 2021/8, 2021/12, 2022/4, 2022/8, 2022/12, 2023/4, 2023/8, 2023/12, 2024/4
 
-Data Source:
+**Data Source:**
 Market Cap information sorted by CoinMarketCap
 
-Fetching Process
+**Fetching Process**
 Market Cap Sorting:
 Retrieve market cap rankings from CoinMarketCap every quarter from 2020/4 to 2024/4.
 
