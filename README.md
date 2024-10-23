@@ -22,21 +22,21 @@ Measure the relative change over time, to identify tokens with significant recen
 
 **Universal Value Selection:** Based on Quarterly Market Cap
 
-**Date Fetched: **
+**Date Fetched:**
 2020/4, 2020/8, 2020/12, 2021/4, 2021/8, 2021/12, 2022/4, 2022/8, 2022/12, 2023/4, 2023/8, 2023/12, 2024/4
 
 **Data Source:**
 Market Cap information sorted by CoinMarketCap
 
 **Fetching Process**
-Market Cap Sorting:
+**Market Cap Sorting:**
 Retrieve market cap rankings from CoinMarketCap every quarter from 2020/4 to 2024/4.
 
-Save Symbols:
+**Save Symbols:**
     Store the sorted token symbols in a list.
 
-Fetch Funding Rates:
+**Fetch Funding Rates:**
 Use the Binance API to collect funding rates for the tokens in the list.
 
-Data Structure:
+**Data Structure:**
     Organize the fetched funding rate data appropriately.
